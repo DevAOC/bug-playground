@@ -1,0 +1,6 @@
+field on gelly {
+  children {
+    test
+    [where gelly.name == test]
+  }
+}

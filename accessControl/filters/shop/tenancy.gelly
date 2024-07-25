@@ -1,0 +1,3 @@
+filter ($user: User, $session: Session) on Shop [
+  where $user.id == users.id
+]

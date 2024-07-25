@@ -1,0 +1,4 @@
+fragment Filter($session: Session) on Group {
+  *
+  [where count(members, where: members.id == "1") > 0]
+}
